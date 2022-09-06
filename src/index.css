@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-red{
+  background-color: red;
+}
+
+.red{
+  color: red;
+}
+
+.hov:hover{
+  color: red;
+}
+
+.bg-hov:hover{
+  background-color: red;
+}

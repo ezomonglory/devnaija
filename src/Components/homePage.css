@@ -1,0 +1,6 @@
+.home {
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.626), rgba(0, 0, 0, 0.689)), url("../assets/home-Image.webp");
+    object-fit: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import FAQ from "./Components/FAQ";
+import Footer from "./Components/Footer";
+import Form from "./Components/Form";
+import HomePage from "./Components/HomePage";
+import Team from "./Components/Team";
+import Testimony from "./Components/Testimony";
+import Why from "./Components/Why";
+import WriteUp from "./Components/WriteUp";
+import WriteUp0 from "./Components/WriteUp0";
+import WriteUp2 from "./Components/WriteUp2";
+import Watsaap from "./Components/Watsaap";
+
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <div className=" space-y-12 relative">
+    <HomePage />
+    <WriteUp0 />
+    <WriteUp />
+    <WriteUp2 />
+    <Why />
+    <Testimony />
+    <Team />
+    <Form />
+    <FAQ />
+    <Footer />
+    <Watsaap />
+  </div>
   );
 }
 
