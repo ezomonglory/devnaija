@@ -18,9 +18,9 @@ function Testimony() {
 					Name='Mrs Esther'
 					Title='Mother'
 					image={Ester}
-					text='I registered my son for the devnaija academy summer training and in just the second week of the program instead of playing games with his phone. He now spends his time trying to build games. this academy has allowed him to channel all his energy into something beneficial to him, i am so happy with my decision to enroll him to devnaija academy, it was truly a revelation.'
+					text='I registered my son for the devnaija academy summer training and in just the second week of the program instead of playing games with his phone, he now spends his time trying to build games. This academy has allowed him to channel all his energy into something beneficial to him, i am so happy with my decision to enroll him to devnaija academy, it was truly a revelation.'
 				/>
-				<Card Name='Mrs Ibukun K.' Title='Mother' text="Thank you at DevNaija for transforming my son, he has more interest in technology and he is now making better choices. Thank you" />
+				<Card Name='Mrs Ibukun K.' Title='Mother' text="Thank you at DevNaija for transforming my son, he is passionate about building games and assembling robots. He has started saving and spending his money wisely" />
 			</div>
 		</div>
 	);

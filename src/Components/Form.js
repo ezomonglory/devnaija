@@ -14,17 +14,7 @@ function Form() {
 	const onSubmit = (data) => {
 		const sendForm = {
 			from_name: "Glory",
-			to_name: "DevNaija",
-			// message: JSON.stringify({
-			// 	"Parent's First Name" : data.First,
-			// 	"Parent's Last Name": data.Last,
-			// 	"Parents Email": data.Email,
-			// 	"Phone Number": data.Number,
-			// 	"Residence": data.Residence,
-			// 	"Number of children to register": data.Children,
-			// 	"Type Of Class": data.Type,
-			// 	"Session": data.Session
-			// }),
+			to_name: "DevNaija",		
 			FirstName: data.First,
 			LastName: data.Last,
 			Email: data.Email,
@@ -36,7 +26,7 @@ function Form() {
 		};
 
 		console.log(data);
-		send("service_20pmhlb", "template_bb1kh5o", sendForm, "fVaf5XJ1o2zAAUT1H")
+		send("service_49dpq6c", "template_3a0i1vn", sendForm, "jwWrmMkwcweNApcdm")
 			.then((response) => {
 				console.log("SUCCESS!", response.status, response.text);
 			})
@@ -51,7 +41,7 @@ function Form() {
 			id='form'
 		>
 			<h1 className='red text-3xl text-center mb-12 font-bold capitalize'>
-				Please Fill The Form Bellow
+				Please Fill The Form Below
 			</h1>
 				<h3 className='text-black font-bold text-2xl text-center mb-4'>
 				To Join the online class the following will be required
@@ -179,9 +169,9 @@ function Form() {
 			</form>
 
 			<p className='text-lg mb-6 mt-6 lg:mt-0'>
-				Tuition fee is <span className='text-black font-bold'> N20,000</span>{" "}
+				Tuition fee is <span className='text-black font-bold'> N20,000/$30</span>{" "}
 				per child for a month and{" "}
-				<span className='text-blacl font-bold'>N35,000</span> per child for 2
+				<span className='text-blacl font-bold'>N35,000/$55</span> per child for 2
 				months{" "}
 			</p>
 			<p>
@@ -190,7 +180,7 @@ function Form() {
 					{" "}
 					devnaija academy limited 0720867771 gtbank
 				</span>{" "}
-				Naira Account or{" "}
+				Naira Account or{" "} <br/>
 				<span className='text-black font-bold uppercase'>
 					devnaija academy limited 0720767929 gtbank
 				</span>{" "}
@@ -198,7 +188,7 @@ function Form() {
 				<br />
 				Send Proof of Payment to{" "}
 				<span className='text-black font-bold text-lg'>
-					support@devnaija.com
+					devnaijaacademy@gmail.com
 				</span>
 			</p>
 
