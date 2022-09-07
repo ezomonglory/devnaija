@@ -29,12 +29,11 @@ function WriteUp2() {
 					</p>
 				</div>
 
-				<div className=' w-full  text-lg lg:-mt-[5rem]'>
+				<div className=' w-full  text-lg lg:-mt-[10rem]'>
 					<h1 className='red text-3xl font-bold text-center uppercase mb-4'>
-						Courses we offer
+						Courses For Kids
 					</h1>
-					<p>
-						<h2 className="text-center">Courses:</h2>
+					<p>					
 						<h2 className='mt-4 text-center text-black font-bold'>
 							HTML,CSS & Javascript(Website)
 						</h2>
