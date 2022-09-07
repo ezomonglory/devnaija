@@ -198,7 +198,7 @@ function Form() {
 				<br />
 				Send Proof of Payment to{" "}
 				<span className='text-black font-bold text-lg'>
-					devnaijaacademy@gmail.com
+					support@devnaija.com
 				</span>
 			</p>
 

@@ -19,8 +19,8 @@ function Footer() {
 						text='13, Joseph Street,  Opebi(opposite Adebola House), Ikeja Lagos'
 					/>
 				</div>
-				<a href='mailto:devnaijaacademy@gmail.com'>
-					<FooterComp image={Mail} text='devnaijaacademy@gmail.com' />
+				<a href='mailto:support@devnaija.com'>
+					<FooterComp image={Mail} text='support@devnaija.com' />
 				</a>
 			</div>
 		</div>
