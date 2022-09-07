@@ -12,9 +12,9 @@ function WriteUp2() {
 					<p>
 						We offer both{" "}
 						<span className='text-black font-bold '>
-							Physical(In-Person) and Virtual(Online)
+							Physical and  Virtual(Online) classes <br /> For physical classes, laptops are available at the center for learning
 						</span>{" "}
-						Classes. <br /> <br />
+						<br /> <br />
 						Our weekend classes runs for two hours every saturday for a month
 						and in two batches. <br /> See available batches below: <br />
 						<span className='font-bold text-black'>

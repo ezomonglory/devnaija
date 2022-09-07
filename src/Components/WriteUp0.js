@@ -19,8 +19,8 @@ function WriteUp0() {
 				<p>{" "}
 				It is not their fault, let’s help you , channel their energy, show them
 				a better path of sitting to create those games themselves and spend
-				their money wisely. This skills will help them compete globally for
-				jobs, become technopreneurs(like steve jobs),earn in local and foreign
+				their money wisely. These skills will help them compete globally for
+				jobs, become technopreneurs(like Steve Jobs),earn in local and foreign
 				currencies and become nation builders by solving real problems.</p>
 			</div>
 			<div className="w-full lg:w-[50%] text-lg h-[40vh] overflow-hidden rounded-lg">

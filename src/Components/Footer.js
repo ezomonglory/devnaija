@@ -16,7 +16,7 @@ function Footer() {
 				<div className='lg:w-[40%] text-center'>
 					<FooterComp
 						icon={true}
-						text='13, Joseph Street,(Off Opebi Link Bridge) Near Adebola House, Opebi, Ikeja Lagos'
+						text='13, Joseph Street,  Opebi(opposite Adebola House), Ikeja Lagos'
 					/>
 				</div>
 				<a href='mailto:devnaijaacademy@gmail.com'>

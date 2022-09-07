@@ -14,7 +14,7 @@ function Form() {
 	const onSubmit = (data) => {
 		const sendForm = {
 			from_name: "Glory",
-			to_name: "DevNaija",		
+			to_name: "DevNaija",
 			FirstName: data.First,
 			LastName: data.Last,
 			Email: data.Email,
@@ -43,7 +43,7 @@ function Form() {
 			<h1 className='red text-3xl text-center mb-12 font-bold capitalize'>
 				Please Fill The Form Below
 			</h1>
-				<h3 className='text-black font-bold text-2xl text-center mb-4'>
+			<h3 className='text-black font-bold text-2xl text-center mb-4'>
 				To Join the online class the following will be required
 			</h3>
 			<div className='flex lg:space-x-12 space-y-6 lg:space-y-0 justify-center w-full lg:w-[80%] mx-auto lg:mb-8 flex-col lg:flex-row text-left'>
@@ -55,6 +55,16 @@ function Form() {
 					<FormReq text='A Laptop or a Desktop with a webcam' />
 					<FormReq text='Distraction-free environment' />
 				</div>
+			</div>
+			<div>
+				<h3 className='text-black font-bold text-2xl text-center mb-4'>
+					For enquiries and to Join the on-site classes
+				</h3>
+				<p>
+					Chat Dele on{" "}
+					<a href='https://wa.me/message/UW5CWNXP5AB7D1' className="cursor-pointer underline">09152690938</a> {" "}
+					Or <br /> Visit us at 13, Joseph Street,Opebi(opposite Adebola house), Ikeja Lagos
+				</p>
 			</div>
 
 			<form
@@ -169,10 +179,10 @@ function Form() {
 			</form>
 
 			<p className='text-lg mb-6 mt-6 lg:mt-0'>
-				Tuition fee is <span className='text-black font-bold'> N20,000/$30</span>{" "}
-				per child for a month and{" "}
-				<span className='text-blacl font-bold'>N35,000/$55</span> per child for 2
-				months{" "}
+				Tuition fee is{" "}
+				<span className='text-black font-bold'> N20,000/$30</span> per child for
+				a month and <span className='text-blacl font-bold'>N35,000/$55</span>{" "}
+				per child for 2 months{" "}
 			</p>
 			<p>
 				Payments should be made to{" "}
@@ -180,7 +190,7 @@ function Form() {
 					{" "}
 					devnaija academy limited 0720867771 gtbank
 				</span>{" "}
-				Naira Account or{" "} <br/>
+				Naira Account or <br />
 				<span className='text-black font-bold uppercase'>
 					devnaija academy limited 0720767929 gtbank
 				</span>{" "}

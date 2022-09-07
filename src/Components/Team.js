@@ -13,11 +13,13 @@ function Team() {
 			</h1>
 			<div className='grid  w-full grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-8'>
 				<TeamMember
-					Name='Dolapo Ogunbiyi'
-					Title='Manager'
-					image={Dolapo}
+					Name='Abiodun Obisesan'
+					Title=' Senior software developer /Advisor'
+					image={Abiodun}
 				/>
-				<TeamMember Name='Abiodun Obisesan' Title=' Senior software developer /Advisor' image={Abiodun} />
+
+				<TeamMember Name='Dolapo Ogunbiyi' Title='Manager' image={Dolapo} />
+
 				<TeamMember
 					Name='Bamidele Adedeji'
 					Title='Software Developer/Instructor'

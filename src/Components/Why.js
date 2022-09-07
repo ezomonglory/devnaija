@@ -12,7 +12,7 @@ function Why() {
 					<Mark text='Children are exposed to the technology world ' />
 				</div>
 				<div className="space-y-3 w-full ">
-					<Mark text='We help the children channel their energy into something benefitial to them  ' />
+					<Mark text='We help the children channel their energy into coding which can create a better future for them  ' />
 					<Mark text='We teach financial literacy and entrepreneurial skills ' />
 					<Mark text='A Convenient and friendly enviroment for learning ' />
 				</div>
