@@ -4,6 +4,8 @@ import Abiodun from "../assets/Abiodun.jpeg";
 import Dele from "../assets/Dele.jpeg";
 import Dolapo from "../assets/Dolapo.jpg";
 import EG from "../assets/eg.jfif";
+import Bimbo from "../assets/bimbo.jpeg";
+import Yet from "../assets/Yet.jpeg";
 
 function Team() {
 	return (
@@ -21,14 +23,27 @@ function Team() {
 				<TeamMember Name='Dolapo Ogunbiyi' Title='Manager' image={Dolapo} />
 
 				<TeamMember
+					Name='Bimbo Omotoso'
+					Title='Senior Software Developer/Advisor'
+					image={Bimbo}
+				/>
+				
+				{/* <TeamMember
 					Name='Bamidele Adedeji'
 					Title='Software Developer/Instructor'
 					image={Dele}
-				/>
-				<TeamMember
+				/> */}
+
+				{/* <TeamMember
 					Name='Ezomon Glory'
 					Title='Front-End Developer/Instructor'
 					image={EG}
+				/> */}
+
+				<TeamMember
+					Name='Jadesola Yetunde'
+					Title='Front-End Developer/Secretary'
+					image={Yet}
 				/>
 			</div>
 		</div>

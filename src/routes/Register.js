@@ -1,13 +1,14 @@
 import React, { useRef, useState } from "react";
-import FormInput from "./FormInput";
-import FormReq from "./FormReq";
-import FormSelect from "./FormSelect";
+// import FormInput from "./FormInput";
+import FormReq from "../Components/FormReq";
+// import FormSelect from "./FormSelect";
 import { send } from "emailjs-com";
 import { useForm } from "react-hook-form";
-import toast, { Toaster } from "react-hot-toast";
 import { Link } from "react-router-dom";
+import Logo from "../assets/logo.png"
+import Footer from "../Components/Footer";
 
-function Form() {
+function Register() {
 	const {
 		register,
 		handleSubmit,
@@ -31,11 +32,6 @@ function Form() {
 		send("service_49dpq6c", "template_3a0i1vn", sendForm, "jwWrmMkwcweNApcdm")
 			.then((response) => {
 				console.log("SUCCESS!", response.status, response.text);
-				toast.success("Form Submitted sucessfully", {
-					duration: 5000,
-					className: "text-[20px]",
-				});
-				data.First.value = "";
 			})
 			.catch((err) => {
 				console.log("FAILED...", err);
@@ -43,15 +39,27 @@ function Form() {
 	};
 
 	return (
+        <div>
 		<div
 			className='text-center text-lg lg:w-[80%] mx-auto w-full p-2 scroll-smooth '
 			id='form'
 		>
-			<Toaster />
+			<Link to='/'>
+				<div className='flex md:space-x-2 justify-center items-center mb-4 '>
+					<img src={Logo} alt='logo' className='w-12' />
+					<div>
+						<p className='md:text-3xl text-lg uppercase font-bold'>
+							DevNaija Academy{" "}
+						</p>
+						<p>Coding and financial literacy school</p>{" "}
+					</div>
+				</div>
+			</Link>
+
 			<h1 className='red text-3xl text-center mb-12 font-bold capitalize'>
-				enquiries
+				Please Fill The Form Below
 			</h1>
-			{/* <h3 className='text-black font-bold text-2xl text-center mb-4'>
+			<h3 className='text-black font-bold text-2xl text-center mb-4'>
 				To Join the online class the following will be required
 			</h3>
 			<div className='flex lg:space-x-12 space-y-6 lg:space-y-0 justify-center w-full lg:w-[80%] mx-auto lg:mb-8 flex-col lg:flex-row text-left'>
@@ -63,17 +71,12 @@ function Form() {
 					<FormReq text='A Laptop or a Desktop with a webcam' />
 					<FormReq text='Distraction-free environment' />
 				</div>
-			</div> */}
-			<p className='text-lg   mb-4 mt-6 lg:mt-0'>
-				Tuition fee is{" "}
-				<span className='text-black font-bold'> N20,000/$30</span> per child for
-				a month and <span className='text-blacl font-bold'>N35,000/$55</span>{" "}
-				per child for 2 months{" "}
-			</p>
-			<div className="mb-2">To register <Link to="/Register"><span className="red underline rounded-full px-4 py-1 uppercase cursor-pointer">click here</span></Link></div>
+			</div>
 			<div>
 				<h3 className='text-black font-bold text-2xl text-center mb-4'>
-					For Further Enquiries <br />
+					For enquiries and to Join the on-site classes
+				</h3>
+				<p>
 					Chat Dele on{" "}
 					<a
 						href='https://wa.me/message/UW5CWNXP5AB7D1'
@@ -83,10 +86,10 @@ function Form() {
 					</a>{" "}
 					Or <br /> Visit us at 13, Joseph Street,Opebi(opposite Adebola house),
 					Ikeja Lagos
-				</h3>
+				</p>
 			</div>
 
-			{/* <form
+			<form
 				className='lg:w-[70%] mx-auto mt-8 w-full  '
 				onSubmit={handleSubmit(onSubmit)}
 			>
@@ -97,7 +100,7 @@ function Form() {
 							type='text'
 							{...register("First")}
 							placeholder="Parent's First Name"
-							className='border w-[100%] border-gray-300 outline-none text-black p-2 ' 
+							className='border w-[100%] border-gray-300 outline-none text-black p-2 '
 							size={50}
 						/>
 					</label>
@@ -219,15 +222,18 @@ function Form() {
 				<span className='text-black font-bold text-lg'>
 					support@devnaija.com
 				</span>
-			</p> */}
+			</p>
 
 			{/* <a href='#form' className='scroll-smooth'>
 				<button className='bg-red py-2 px-6 text-white rounded-full hover:scale-105 active:scale-95 mt-4 text-2xl  hover:bg-red-600'>
 					Book Now
 				</button>
 			</a> */}
+
 		</div>
+            <div className=" mt-6"><Footer /></div>
+        </div>
 	);
 }
 
-export default Form;
+export default Register;

@@ -15,17 +15,12 @@ function HomePage() {
 				</div>
 			</div>
 			<div className='w-full text-center mt-40 '>
-				<p className='text-3xl mb-2 uppercase font-medium'>
-					weekend classes for kids ages 6-16
+				<p className='text-[2rem] mb-2 uppercase font-medium'>
+					Welcome 
 				</p>
-				<p className='text-lg'>First Class Free</p>
+				<p className='text-2xl'>Thank You For Visiting Our page</p>
 			</div>
-
-			<a href='#form' className='scroll-smooth'>
-				<button className='bg-red py-2 px-6 rounded-full hover:scale-105 active:scale-95 mt-4 text-2xl  hover:bg-red-600'>
-					Book Now
-				</button>
-			</a>
+			
 		</div>
 	);
 }

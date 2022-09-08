@@ -15,12 +15,7 @@ function WriteUp2() {
 							Physical and  Virtual(Online) classes <br /> For physical classes, laptops are available at the center for learning
 						</span>{" "}
 						<br /> <br />
-						Our weekend classes runs for two hours every saturday for a month
-						and in two batches. <br /> See available batches below: <br />
-						<span className='font-bold text-black'>
-							October to November{" "}
-						</span>{" "}
-						<br />
+						Our weekend classes runs for two hours every saturday in two batches. <br /> See available batches below: <br />												
 						<span className='font-bold text-black'>
 							Morning: 10am - 12pm
 						</span>{" "}

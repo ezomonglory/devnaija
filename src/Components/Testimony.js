@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "./Card";
 import Ester from "../assets/Ester.jpeg";
+import { InstagramEmbed } from "react-social-media-embed";
 
 function Testimony() {
 	return (
@@ -8,12 +9,6 @@ function Testimony() {
 			<h1 className='capitalize red text-3xl font-bold text-center mb-12'>
 				TESTIMONIALS
 			</h1>
-
-			<iframe
-				title='Mom'
-				src='https://www.youtube.com/embed/nEfNXtN_WfA'
-				className=' w-full lg:w-[50%] mx-auto mb-4 h-[400px] rounded-lg '
-			></iframe>
 
 			<div className=' grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-8 '>
 				<iframe
@@ -24,8 +19,8 @@ function Testimony() {
 
 				<iframe
 					title='Mom'
-					src='https://www.youtube.com/embed/qcr8mI361Js'
-					className=' w-full rounded-lg mx-auto mb-4 h-[400px] '
+					src='https://www.youtube.com/embed/nEfNXtN_WfA'
+					className=' w-full lg:w-[50%] mx-auto mb-4 h-[400px] rounded-lg '
 				></iframe>
 				<Card
 					Name='Mrs Esther'
