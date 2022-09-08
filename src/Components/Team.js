@@ -27,18 +27,18 @@ function Team() {
 					Title='Senior Software Developer/Advisor'
 					image={Bimbo}
 				/>
-				
-				{/* <TeamMember
+
+				<TeamMember
 					Name='Bamidele Adedeji'
 					Title='Software Developer/Instructor'
 					image={Dele}
-				/> */}
+				/>
 
-				{/* <TeamMember
+				<TeamMember
 					Name='Ezomon Glory'
 					Title='Front-End Developer/Instructor'
 					image={EG}
-				/> */}
+				/>
 
 				<TeamMember
 					Name='Jadesola Yetunde'

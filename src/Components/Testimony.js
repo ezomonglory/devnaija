@@ -20,7 +20,7 @@ function Testimony() {
 				<iframe
 					title='Mom'
 					src='https://www.youtube.com/embed/nEfNXtN_WfA'
-					className=' w-full lg:w-[50%] mx-auto mb-4 h-[400px] rounded-lg '
+					className=' w-full mx-auto mb-4 h-[400px] rounded-lg '
 				></iframe>
 				<Card
 					Name='Mrs Esther'
