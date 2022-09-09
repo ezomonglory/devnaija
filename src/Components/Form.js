@@ -48,8 +48,8 @@ function Form() {
 			id='form'
 		>
 			<Toaster />
-			<h1 className='red text-3xl text-center mb-12 font-bold capitalize'>
-				enquiries
+			<h1 className=' text-2xl text-center mb-6 font-bold capitalize'>
+				First coding class is free for subsequent classes tuition fee is:
 			</h1>
 			{/* <h3 className='text-black font-bold text-2xl text-center mb-4'>
 				To Join the online class the following will be required
@@ -64,8 +64,7 @@ function Form() {
 					<FormReq text='Distraction-free environment' />
 				</div>
 			</div> */}
-			<p className='text-lg   mb-4 mt-6 lg:mt-0'>
-				Tuition fee is{" "}
+			<p className='text-lg   mb-4 mt-6 lg:mt-0'>				
 				<span className='text-black font-bold'> N20,000/$30</span> per child for
 				a month and <span className='text-blacl font-bold'>N35,000/$55</span>{" "}
 				per child for 2 months{" "}

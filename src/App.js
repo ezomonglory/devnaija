@@ -9,6 +9,7 @@ import WriteUp from "./Components/WriteUp";
 import WriteUp0 from "./Components/WriteUp0";
 import WriteUp2 from "./Components/WriteUp2";
 import Watsaap from "./Components/Watsaap";
+import Message from "./Components/Message";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
     <Why />
     <Testimony />
     <Form />
+    <Message />
     <Team />
     <FAQ />
     <Footer />
