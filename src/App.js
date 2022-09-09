@@ -16,13 +16,13 @@ function App() {
   return (
   <div className=" space-y-12 relative">
     <HomePage />
-    <Team />
     <WriteUp0 />
     <WriteUp />
     <WriteUp2 />
     <Why />
     <Testimony />
     <Form />
+    <Team />
     <FAQ />
     <Footer />
     <Watsaap />
