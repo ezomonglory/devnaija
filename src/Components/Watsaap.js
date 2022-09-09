@@ -14,13 +14,13 @@ function Watsaap() {
 		>
 			{show ? (
 				<div className='flex space-x-2 bg-red py-2 px-4 text-white rounded-lg items-center'>
-					<img src={hand} alt='hand' className='h-12 w-12' />
-					<h1 className=''>CHAT US</h1>
+					<img src={hand} alt='hand' className='h-6 w-6' />
+					<h1 className='text-sm'>CHAT US</h1>
 				</div>
 			) : (
 				" "
 			)}
-			<div className='rounded-full h-16 w-16 overflow-hidden ml-12'>
+			<div className='rounded-full h-16 w-16 overflow-hidden ml-6'>
 				<img src={Wat} alt='Chat' />{" "}
 			</div>
 		</a>
