@@ -20,7 +20,9 @@ function Book() {
                 <input type="number" placeholder="Parent Mobile No" className='border border-gray-300 w-full py-2 px-4 rounded-lg outline-none' />
             </label>
        </div>
-            <div className='bg-red text-white text-center cursor-pointer hover:bg-red-500 py-4 px-8 font-bold uppercase '> Schedule a Free Class </div>
+           <a href='https://wa.me/message/UW5CWNXP5AB7D1'>
+           <div className='bg-red text-white text-center cursor-pointer hover:bg-red-500 py-4 px-8 font-bold uppercase '> Schedule a Free Class </div>
+           </a>
     </div>
   )
 }
