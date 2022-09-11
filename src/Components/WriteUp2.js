@@ -35,16 +35,16 @@ function WriteUp2() {
 						<h2 className='mt-4 text-center text-black font-bold'>
 							HTML,CSS & Javascript(Website)
 						</h2>
+						<h2 className='text-black text-center font-bold'>
+						Financial Literacy
+						</h2>
 						<h2 className='text-black text-center font-bold'>Scratch(Games)</h2>
 						<h2 className='text-black text-center font-bold'>Robotics</h2>
-						<h2 className='text-black text-center font-bold'>
-							<span className="red">Bonus:</span> Financial Literacy
-						</h2>
 					</p>
 				</div>
 			</div>
 			<Link
-				to='/register'
+				to='/Book'
 				className=' lg:ml-[25%] lg:mr-[25%] mx-auto ml-4 mr-4'
 			>
 				<button className='bg-red py-2  px-6 w-[90%] lg:w-[50%] text-white rounded-full hover:scale-105 active:scale-95 mt-4 text-2xl  hover:bg-red-600'>

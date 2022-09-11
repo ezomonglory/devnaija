@@ -5,6 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Register from "./routes/Register";
+import Book from "./routes/Book";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -13,6 +14,7 @@ root.render(
 			<Routes>
 				<Route path='/' element={<App />} />
 				<Route path='/Register' element={<Register />} />
+				<Route path='/Book' element={<Book />} />
 			</Routes>
 		</BrowserRouter>
 	</React.StrictMode>,
