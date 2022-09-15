@@ -1,5 +1,5 @@
 import React from "react";
-import Side from "../assets/kids.jpg";
+import Side from "../assets/drag.jpeg";
 
 
 function WriteUp0() {

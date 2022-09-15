@@ -14,7 +14,7 @@ function Book() {
 					<p>Coding and financial literacy school</p>{" "}
 				</div>
 			</div>
-            <h1 className='text-black uppercase font-bold'> Book Now and Get Certified</h1>
+            <h1 className='text-black uppercase font-bold'> Chat us via Whatsap and Get Certified</h1>
             <label>
                 <h1>Parent Mobile No</h1>
                 <input type="number" placeholder="Parent Mobile No" className='border border-gray-300 w-full py-2 px-4 rounded-lg outline-none' />

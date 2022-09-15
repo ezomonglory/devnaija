@@ -226,7 +226,7 @@ function Register() {
 
 			{/* <a href='#form' className='scroll-smooth'>
 				<button className='bg-red py-2 px-6 text-white rounded-full hover:scale-105 active:scale-95 mt-4 text-2xl  hover:bg-red-600'>
-					Book Now
+					Chat us via Whatsap
 				</button>
 			</a> */}
 

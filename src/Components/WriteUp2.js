@@ -43,14 +43,14 @@ function WriteUp2() {
 					</p>
 				</div>
 			</div>
-			<Link
-				to='/Book'
+			<a
+				href='https://wa.me/message/UW5CWNXP5AB7D1'
 				className=' lg:ml-[25%] lg:mr-[25%] mx-auto ml-4 mr-4'
 			>
 				<button className='bg-red py-2  px-6 w-[90%] lg:w-[50%] text-white rounded-full hover:scale-105 active:scale-95 mt-4 text-2xl  hover:bg-red-600'>
-					Book Now
+					Chat us via Whatsap
 				</button>
-			</Link>
+			</a>
 		</div>
 	);
 }
