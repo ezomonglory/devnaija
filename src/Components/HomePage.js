@@ -22,7 +22,7 @@ function HomePage() {
 				<p className='text-2xl mb-2'>First Coding Class Free</p>				
 				<a href="https://wa.me/message/UW5CWNXP5AB7D1">
 					<div className="text-md bg-red py-2 px-8 rounded-full md:w-[50%] mx-auto hover:scale-105 active:scale-95 mt-4 md:text-lg   hover:bg-red-600 ">
-						Chat us via Whatsaap
+						Chat us via Whatsapp
 					</div>
 				</a>
 			</div>
